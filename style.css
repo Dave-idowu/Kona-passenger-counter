@@ -1,0 +1,43 @@
+*{
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;     
+
+
+}
+.container{
+    background: url(pexels-dom-j-297836.jpg);
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1, p{
+    color: white;
+    margin: 10px 0 10px 0;
+}
+h2{
+    color: white;
+    font-size: 50px;
+    margin: 0 0 20px 0;
+}
+
+button{
+    border: solid black;
+    padding-top:10px;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 10px;
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+    margin: 0 0 5px 0;
+    cursor: pointer;
+}
+#increment-btn{
+    background-color: red;
+}
+#save-btn{
+    background-color: green;
+}
